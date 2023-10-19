@@ -1,47 +1,16 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-   font-family: 'Courier New', Courier, monospace;
-}
-.slider{
-    overflow: hidden;
-}
-.slider figure{
-    position: relative;
-    width: 500%;
-    margin: 0;
-    left: 0;
-    animation: 16s slider infinite;
-}
-.slider figure img{
-    float: left;
-    width: 20%;
-    height: 100%;
-}
-@keyframes slider{
-    0% {
-        left: 0;
-    }
-    20%{
-        left: 0;
-    }
-    25%{
-        left: -100%;
-    }
-    45%{
-        left: -100%;
-    }
-    50%{
-        left: -200%;
-    }
-    70%{
-        left: -200%;
-    }
-    75%{
-        left: -300%;
-    }
-    95%{
-        left: -300%;
-    }
-}
+<section id = "sliding">
+        <h1><span style="opacity: 0;">Our Destinations</span></h1>
+        <div>
+        <div class = "mycontainer">
+            <div class="wrapper">
+                <img src="myimages/destination2.jpg" >
+                <img src="myimages/destination3.jpg" >
+                <img src="myimages/destination4.jpg" >
+                <img src="myimages/destination5.jpg" >
+                <img src="myimages/destination6.jpg" >
+                <img src="myimages/desination1.png" >
+                <img src="myimages/Africa3.png">
+                <img src="myimages/anotherafric.webp">
+            </div>
+        </div>
+    </div>
