@@ -659,6 +659,17 @@ h1{
     justify-content: center;
     margin-bottom: 80px;
 }
+#ulbbanner{
+    height: 80vh;
+    width: 100%;
+    display: flex;
+    background-size: cover;
+    background-position: center;
+    background-image: linear-gradient(rgba(0,0,0,0.85),rgba(0,0,0,0.18)),url(myimages/lkbunyonyicover.webp);
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 80px;
+}
 #ubwbanner{
     height: 80vh;
     width: 100%;
