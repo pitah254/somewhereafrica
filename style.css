@@ -1150,4 +1150,10 @@ h1{
     .feature1{
         flex-basis: 120%;
     }
+    .feature1-img{
+        flex-basis: 100%;
+    }
+    .feature1-img img{
+        width: 100%;
+    }
 }
