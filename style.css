@@ -1157,3 +1157,37 @@ h1{
         width: 100%;
     }
 }
+.roww{
+    margin-top: 5%;
+    display: flex;
+    justify-content: space-between;
+}
+.facilities1{
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    padding-top: 100px;
+}
+.facilities1-col{
+    flex-basis: 31%;
+    border-radius: 10px;
+    margin-bottom: 5%;
+    text-align: left;
+}
+.facilities1-col img{
+    width: 100%;
+    border-radius: 10px;
+}
+.facilities1-col p{
+    padding: 0;
+}
+.facilities1-col h3{
+    margin-top: 16px;
+    margin-bottom: 15px;
+    text-align: left;
+}
+@media screen and (max-width:770px){
+    .roww{
+        flex-direction: column;
+    }
+}
