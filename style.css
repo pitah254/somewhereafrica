@@ -758,6 +758,17 @@ h1{
     justify-content: center;
     margin-bottom: 80px;
 }
+#smabbbanner{
+    height: 80vh;
+    width: 100%;
+    display: flex;
+    background-size: cover;
+    background-position: center;
+    background-image: linear-gradient(rgba(0,0,0,0.85),rgba(0,0,0,0.18)),url(myimages/allanmiko.jpeg);
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 80px;
+}
 #ukmbanner{
     height: 80vh;
     width: 100%;
@@ -1075,4 +1086,68 @@ h1{
 }
 #sliding{
     height: 0px;
+}
+#features1{
+    width: 100%;
+    padding: 70px 0;
+}
+.title-text1{
+    text-align: center;
+    padding-bottom: 70px;
+}
+.title-text1 h1{
+    font-size: 50px;
+    color: #0d0d0d;
+    font-weight: bold;
+}
+.feature-box1{
+    width: 80%;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    text-align: center;
+}
+.feature1{
+    flex-basis: 50%;
+}
+.feature1-img{
+    flex-basis: 50%;
+    margin: auto;
+}
+.feature1-img img{
+    width: 70%;
+    border-radius: 10px;
+}
+.feature1 h1{
+    text-align: left;
+    margin-bottom: 10px;
+    font-weight: 100;
+    color: burlywood;
+}
+.feature1-desc{
+    display: flex;
+    align-items: center;
+    margin-bottom: 40px;
+}
+.feature1-icon .fa{
+    width: 50px;
+    height: 50px;
+    font-size: 30px;
+    line-height: 50px;
+    border-radius: 8px;
+    color: burlywood;
+    border: 1px solid burlywood;
+}
+.feature1-text p{
+    padding: 0 20px;
+    text-align: initial;
+}
+@media screen and (max-width:770px){
+    .title-text1 h1{
+        font-size: 35px;
+    }
+    .feature1{
+        flex-basis: 120%;
+    }
 }
