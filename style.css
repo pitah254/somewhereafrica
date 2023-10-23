@@ -132,10 +132,10 @@ nav ul li a{
 }
 @media screen and (max-width: 770px){
     .content h1{
-        font-size: 60px;
+        font-size: 50px;
     }
     .content h3{
-        font-size: 25px;
+        font-size: 24px;
     }
 }
 .back-video{
@@ -260,10 +260,10 @@ nav ul li a{
         padding: 0px 20px;
     }
     .heading h1{
-        font-size: 36px;
+        font-size: 17px;
     }
     .heading p{
-        font-size: 17px;
+        font-size: 16px;
         margin-bottom: 0px;
     }
     .container{
@@ -282,7 +282,7 @@ nav ul li a{
         font-size: 16px;
     }
     .about-content .read-more{
-        font-size: 16px;
+        font-size: 15px;
     }
 }
 .boddy{
