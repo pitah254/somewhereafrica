@@ -416,8 +416,17 @@ nav ul li a{
     .footer-img{
         top: 25%;
     }
-    .footer .title-text{
+    .footer .title-text p{
         font-size: 10px;
+    }
+    .footer .title-text p{
+        font-size: 10px;
+    }
+    .footer-row .footer-right h1{
+        font-size: 18px;
+    }
+    .footer-row .footer-left h1{
+        font-size: 18px;
     }
 }
 #banner{
@@ -1318,5 +1327,10 @@ form .button input:hover{
         width: 250px;
         margin-bottom: 10px;
     }
-    
+    .destinations h1{
+        font-smooth: 32px;
+    }
+    .destinations p{
+        font-size: 18px;
+    }
 }
