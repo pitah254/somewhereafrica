@@ -1328,9 +1328,15 @@ form .button input:hover{
         margin-bottom: 10px;
     }
     .destinations h1{
-        font-smooth: 32px;
+        font-size: 26px;
     }
     .destinations p{
         font-size: 18px;
+    }
+    .about-content h2{
+        font-size: 22px;
+    }
+    .heading h1{
+        font-size: 23px;
     }
 }
