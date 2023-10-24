@@ -225,12 +225,12 @@ nav ul li a{
 .about-content h2{
     font-size: 30px;
     margin-bottom: 15px;
-    color: #333;
+    color: #000;
 }
 .about-content p{
     font-size: 18px;
     line-height: 1.5;
-    color: #666;
+    color: #000;
 }
 .about-content p a{
     color: burlywood;
@@ -325,7 +325,7 @@ nav ul li a{
 .title-text p{
     margin: auto;
     font-size: 30px;
-    color:#666;
+    color:#000;
     font-weight: bold;
     position: relative;
     z-index: 1;
@@ -395,7 +395,7 @@ nav ul li a{
     line-height: 40px;
     border: 1px solid #000;
     margin: 40px 5px 0;
-    color: #333;
+    color: #000;
     cursor: pointer;
     transition: 0.5s;
 }
@@ -462,7 +462,7 @@ nav ul li a{
 .title p{
     margin-top: 20px;
     text-align: left;
-    color: #666;
+    color: #000;
     line-height: 2em;
     position: relative;
 }
@@ -1070,13 +1070,13 @@ h1{
 .Card-header{
     font-size: 32px;
     font-weight: 500;
-    color: #0d0d0d;
+    color: #000;
     margin: 10px;
 }
 .card-text{
     font-size: 15px;
     letter-spacing: 0.1rem;
-    color: #3d3d3d;
+    color: #000;
     margin-bottom: 10px;
     margin-left: 10px;
 }
@@ -1138,8 +1138,8 @@ h1{
     padding-bottom: 70px;
 }
 .title-text1 h1{
-    font-size: 50px;
-    color: #0d0d0d;
+    font-size: 39px;
+    color: #000;
     font-weight: bold;
 }
 .feature-box1{
