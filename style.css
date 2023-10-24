@@ -1337,7 +1337,8 @@ form .button input:hover{
         font-size: 22px;
     }
     .heading h1{
-        font-size: 23px;
+        font-size: 32px;
+        font-weight: bolder;
     }
     .destinations-col  h3{
         font-size: 20px;
