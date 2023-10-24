@@ -189,7 +189,7 @@ nav ul li a{
 }
 .heading p{
     font-size: 18px;
-    color: #666;
+    color: #000;
     margin-bottom: 35px;
 }
 .container{
@@ -1344,5 +1344,9 @@ form .button input:hover{
     }
     .read-more{
         font-size: 16px;
+    }
+    #register{
+        margin-top: 10px;
+        margin-bottom: 5px;
     }
 }
