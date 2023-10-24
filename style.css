@@ -1328,7 +1328,7 @@ form .button input:hover{
         margin-bottom: 10px;
     }
     .destinations h1{
-        font-size: 26px;
+        font-size: 23px;
     }
     .destinations p{
         font-size: 18px;
@@ -1338,5 +1338,11 @@ form .button input:hover{
     }
     .heading h1{
         font-size: 23px;
+    }
+    .destinations-col  h3{
+        font-size: 20px;
+    }
+    .read-more{
+        font-size: 16px;
     }
 }
