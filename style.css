@@ -1334,11 +1334,12 @@ form .button input:hover{
         font-size: 18px;
     }
     .about-content h2{
-        font-size: 22px;
+        font-size: 26px;
+        font-weight: bolder;
     }
     .heading h1{
         font-size: 23px;
-        font-weight: bolder;
+        
     }
     .destinations-col  h3{
         font-size: 20px;
