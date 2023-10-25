@@ -1131,7 +1131,7 @@ h1{
     width: 100%;
     color: #fff;
 }
-.aboutusp{
+.aboutus p{
     text-align: left;
     margin: 2px;
     padding: 2px;
@@ -1330,7 +1330,11 @@ form .button input:hover{
         margin-bottom: 15px;
         width: 100%;
     }
-    
+    #register{
+        margin-top: 20px;
+        padding: 15px;
+        min-height: 120vh;
+    }
     .user-details::-webkit-scrollbar{
         width: 0;
     }
@@ -1392,11 +1396,11 @@ form .button input:hover{
     padding: 50px;
     text-align: center;
 }
-.container{
+.containert{
     max-width: 800px;
     margin: 0px auto;
 }
-.container h2{
+.containert h2{
     font-size: 36px;
     margin-bottom: 40px;
     color: #000;
@@ -1470,7 +1474,7 @@ button:hover{
     .form-group {
         margin-bottom: 20px;
     }
-}
+} 
 /* Default styles for larger screens */
 .container2 {
     max-width: 600px;
@@ -1487,6 +1491,12 @@ button:hover{
     .input-box {
         width: 100%;
     }
+}
+.about-content h2{
+    font-size: 22px;
+}
+#Faq{
+    min-height: 100vh;
 }
 
 
