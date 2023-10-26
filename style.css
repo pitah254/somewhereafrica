@@ -668,6 +668,17 @@ h1{
     justify-content: center;
     margin-bottom: 80px;
 }
+#pckgbanner{
+    height: 80vh;
+    width: 100%;
+    display: flex;
+    background-size: cover;
+    background-position: center;
+    background-image: linear-gradient(rgba(0,0,0,0.85),rgba(0,0,0,0.18)),url(myimages/giraffes.jpg);
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 80px;
+}
 #uqebanner{
     height: 80vh;
     width: 100%;
@@ -1498,7 +1509,94 @@ button:hover{
 #Faq{
     min-height: 100vh;
 }
-
-
-
-
+.blogcontainer{
+    width: 100%;
+}
+.blog-section{
+    width: 85%;
+    margin: 20px auto;
+}
+.blog-section .title{
+    width: 60%;
+    text-align: center;
+    margin: auto;
+}
+.blog-section .title h2{
+    font-size: 40px;
+    margin-top: 50px;
+}
+.blog-section .title p{
+     font-size: 18px;
+     margin-top: 20px;
+}
+.blog-section .title input{
+    width: 300px;
+    margin-top: 20px;
+    padding: 15px;
+    font-size: 15px;
+    border: 1px solid burlywood;
+    background:transparent;
+}
+.blog-cards{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 50PX;
+    margin: 25px auto;
+}
+.blog-cards .bcards{
+    width: 100%;
+    position: relative;
+}
+.bimage-section img{
+    width: 100%;
+    height: auto;
+}
+.bcontent{
+    padding: 15px 20px;
+}
+.bcontent h4{
+    font-size: 24px;
+    color: #222;
+    font-weight: 500;
+}
+.bcontent a{
+    text-decoration: none;
+    color: #fff;
+    margin-top: 12px;
+    display: inline-block;
+    background: burlywood;
+    padding: 8px 15px;
+}
+.bcards .bprice{
+    position: absolute;
+    top: 0;
+    left: 0;
+    color: red;
+    display: inline-block;
+    padding: 6px 15px;
+    font-weight: bolder;
+    background-color: beige;
+}
+@media screen and (max-width: 768px){
+    .blog-cards{
+        grid-template-columns: repeat(2 1fr);
+    }
+    .blog-cards{
+        grid-template-columns: 1fr;
+    }
+    .blog-section .title {
+        width: 100%;
+    }
+    .blog-section .title h2{
+        font-size: 26px;
+        text-align: center;
+    }
+    .blog-section .title p{
+        font-size: 18px;
+    }
+}
+.search-container{
+    width: 600px;
+    justify-content: center;
+    align-items: center;
+}
