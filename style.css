@@ -1665,7 +1665,8 @@ button:hover{
 @media screen and (max-width: 768px){
     .myservices{
         display: flex;
-        flex-direction: column;
+        flex-direction: column; 
+        width: 100%;
     }
     .mycard{
         width: 85%;
