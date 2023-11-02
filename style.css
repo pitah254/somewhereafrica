@@ -1674,4 +1674,50 @@ button:hover{
         margin: 20px 0px;
     }
 }
-
+.popup{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 300px;
+    padding: 20px 30px;
+    background: #fff;
+    box-shadow: 2px 2px 5px 5px rgba(0, 0, 0, 0.15);
+    border-radius: 10px;
+}
+.popup .close-btn{
+    position: absolute;
+    top: -150px;
+    right: 10px;
+    width: 15px;
+    height: 15px;
+    background: #fff;
+    text-align: center;
+    cursor: pointer;
+    font-size: 26px;
+}
+.popup .form h2{
+    text-align: center;
+    color: #222;
+    margin: 10px 0px 20px;
+    font-size: 25px;
+}
+.popup .form .form-element{
+    margin: 15px 0px;
+}
+.popup .form .form-element label{
+    font-size: 14px;
+    color: #222;
+}
+.popup .form .form-element input{
+    margin-top: 5px;
+    display: block;
+    width: 100%;
+    padding: 10px;
+    outline: none;
+    border: 1px solid burlywood;
+}
+.popup button{
+    margin-top: 15px;
+    margin-left: 25%;
+}
