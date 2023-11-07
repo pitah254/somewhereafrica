@@ -93,7 +93,7 @@
             </div>
         </div>
         <div class="cost-container">
-                <h2>$3700</h2>
+                <h2 id = "package-price">$3700</h2>
         </div>
     </div>
     
@@ -107,14 +107,14 @@
     <div class="overlay" id = "divone">
         <div class="wrappert">
             <h2>Kindly Fill this form</h2>
-            <a href="#this"><i class="fa fa-times" aria-hidden="true"></i></a>
+            <a href="packages.html"><i class="fa fa-times" aria-hidden="true"></i></a>
             <div class="content1">
                 <div class="container1">
                     <form >
                         <label>Package</label>
-                        <input type="text">
+                        <input type="text" id = "packagetitle">
                         <label>Full Name(s)</label>
-                        <input type="text" placeholder="Enter full name">
+                        <input type="text"  placeholder="Enter full name">
                         <label>Email</label>
                         <input type="email" placeholder="Enter your email">
                         <label>Phone</label>
@@ -131,12 +131,13 @@
             </div>
         </div>
     </div>
+    <script>
+        var packageTitle = sessionStorage.getItem("packageTitle");
+        var packageAmount = sessionStorage.getItem("packageAmount");
+        document.getElementById("package-price").textContent = packageAmount;
+        document.getElementById("packagetitle").value = packageTitle;
+    </script>
 </section>
-    </div>
-</section>
-    <section id = "footer">
-        
-    </section>
 
 </body>
 </html>
